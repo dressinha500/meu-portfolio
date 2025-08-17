@@ -1,0 +1,122 @@
+/* Estilos gerais do corpo da página */
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #ffe4e1; /* Rosa clarinho (mistura de light coral) */
+     color: #ff69b4; /* Rosa Shocking */
+     margin: 0;
+     padding: 0;
+     line-height: 1.6;
+ }
+ 
+
+ /* Estilos do cabeçalho */
+ header {
+     background-color: #ff69b4; /* Rosa Shocking */
+     color: white;
+     padding: 1rem 0;
+     text-align: center;
+ }
+ 
+
+ /* Estilos do menu de navegação */
+ nav ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     background-color: #f08080; /* Coral claro para o fundo do menu */
+ }
+ 
+
+ nav ul li {
+     margin: 0 15px;
+ }
+ 
+
+ nav ul li a {
+     color: #ffe4e1; /* Rosa clarinho para os links */
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
+
+ /* Estilos da área de conteúdo principal */
+ main {
+     padding: 2rem;
+     max-width: 800px;
+     margin: auto;
+     background-color: #fff; /* Fundo branco para o conteúdo principal */
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+
+ /* Estilos para títulos */
+ h1, h2 {
+     color: #ff69b4; /* Rosa Shocking */
+ }
+ 
+
+ /* Estilos do formulário de contato */
+ form label {
+     display: block;
+     margin-top: 1rem;
+     font-weight: bold;
+     color: #ff69b4; /* Rosa Shocking */
+ }
+ 
+
+ form input, form textarea {
+     width: 100%;
+     padding: 0.5rem;
+     margin-top: 0.5rem;
+     border: 1px solid #ff69b4; /* Borda rosa */
+     border-radius: 4px;
+ }
+ 
+
+ form button {
+     background-color: #ff69b4; /* Rosa Shocking */
+     color: white;
+     padding: 0.75rem 1.5rem;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     margin-top: 1rem;
+ }
+ 
+
+ form button:hover {
+     background-color: #f08080; /* Coral claro no hover */
+ }
+ 
+
+ /* Estilos do rodapé */
+ footer {
+     text-align: center;
+     padding: 1rem;
+     background-color: #ff69b4; /* Rosa Shocking */
+     color: white;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+ }
+ 
+
+ /* Adicionando estilo para a foto na página Sobre Mim */
+ #foto-perfil {
+     display: block;
+     margin: 20px auto;
+     width: 150px; /* Ajuste o tamanho conforme necessário */
+     height: 150px;
+     border-radius: 50%; /* Deixa a foto redonda */
+     object-fit: cover; /* Preenche o círculo sem distorcer */
+     border: 5px solid #f08080; /* Borda coral */
+ }
+ 
+
+ /* Estilo para o texto principal na página Sobre Mim */
+ #sobre-mim-texto {
+     color: #333; /* Voltar para uma cor mais legível para o texto principal */
+ }
